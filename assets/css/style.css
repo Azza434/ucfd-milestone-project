@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* ------------------------------------------------------Header */
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color: #fafafa;
+}
+
+.bg-secondary {
+    background-color: #7c2c06!important;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 1px;
+    background-color: #581845;
+    color: #FFFFFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    font-family: "Roboto", sans-serif;
+    color: #cccccc;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Roboto", sans-serif;
+    color: #cccccc;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+}
