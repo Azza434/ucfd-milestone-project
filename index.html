@@ -9,7 +9,10 @@
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<script src="https://kit.fontawesome.com/87d2d52f18.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>Document</title>
@@ -17,23 +20,37 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a url="logo.png"></a>
-				<a class="navbar-brand" href="#">North Street Coffee and Bistro</a>
-				<ul class="navbar-nav navbar-right mr-auto mt-2 mt-lg-0">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		<div class="container-fluid navalert-container">
+			<nav class="navbar navbar-dark navbar-expand-sm">
+				<a href="index.html" class="navbar-brand">North Street Coffee & Bistro</a>
+
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav mr-auto">
+						<li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="#about_us">About</a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="#contact_us">Contact</a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="#reviews">Reviews</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Social Media Links
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="/" target="_blank">Facebook</a>
+								<a class="dropdown-item" href="/" target="_blank">Twitter</a>
+								<a class="dropdown-item" href="/" target="_blank">Google+</a>
+								<a class="dropdown-item" href="/" target="_blank">LinkedIn</a>
+								<a class="dropdown-item" href="/" target="_blank">Instagram</a>
+								<a class="dropdown-item" href="/" target="_blank">Pintrest</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 	</header>
 	<section>
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -46,77 +63,475 @@
 				<div class="item active">
 					<img src="assets/images/coffee1.jpg">
 				</div>
-				<div class="item">
-					<img src="assets/images/coffee2.jpg">
-                    </div>
 					<div class="item">
-						<img src="assets/images/coffee4.jpg">
+						<img src="assets/images/coffee2.jpg">
                     </div>
+						<div class="item">
+							<img src="assets/images/coffee5.jpg">
+                    </div>
+						</div>
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
-					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
 				</div>
-				<div class="container">
+			</div>
+		</div>
+		<div class="container mt-5">
+			<div class="magazine-section mx-md-5 dark-grey-text">
+				<h3 class="text-center font-weight-bold mb-4 pb-2">Different Types Of Coffee Explained</h3>
+				<p class="text-center w-responsive mx-auto mb-5">Regardless of why you’re drinking coffee,
+					what matters most is how it tastes, smells, and whether or not it makes you feel alert and happy in
+					the morning.
+					That being said, everyone has their favourite order – perhaps a latte, a piccolo, or maybe a long
+					black.
+					<hr class="split">
+					We checked online to see how many types of coffee beverages there are… it turns out, there’s quite a
+					lot.
+					Over thirty different types were listed on one website, and more than forty on another. To save us
+					all some time,
+					we will confine this list to the most commonplace coffees available, and what many Canstar Blue
+					staff deem the most delicious.</p>
+				<div class="row">
+					<div class="col-lg-5 mb-lg-0 mb-5">
+						<img src="https://imgur.com/slhGbF6.jpg" alt="Sample project image" class="img-fluid rounded z-depth-1">
+                    </div>
+						<div class="col-lg-7">
+							<div class="row mb-3">
+								<div class="col-md-1 col-2">
+									<i class=""></i>
+								</div>
+								<div class="col-md-11 col-10">
+									<h5 class="font-weight-bold mb-3">Caffè Americano</h5>
+									<p class="t">You can make this type of coffee quite simply by
+										adding hot water to a shot of espresso coffee. It has been said
+										that American soldiers during the Second World War would make this
+										type of coffee to make their beverages last longer. It was then (apparently)
+										adopted by American baristas after the war.</p>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-1 col-2">
+									<i class=""></i>
+								</div>
+								<div class="col-md-11 col-10">
+									<h5 class="font-weight-bold mb-3">Café Latte</h5>
+									<p class="">A fairly popular option for coffee drinkers,
+										a latte consists steamed (or scalded) milk and a single shot of coffee.
+										It is usually quite frothy, and you’ll occasionally encounter cafes
+										that don’t understand the difference between this and a flat white.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1 col-2">
+									<i class=""></i>
+								</div>
+								<div class="col-md-11 col-10">
+									<h5 class="font-weight-bold mb-3">Cappuccino</h5>
+									<p class="mb-0">Possibly the most popular type of coffee in the world,
+										a cappuccino consists of three layers (kind of like a cake). The first is a shot
+										of espresso,
+										then a shot of steamed milk, and finally the barista adds a layer of frothed,
+										foamy milk.
+										This final layer can also be topped with chocolate shavings or powder.
+										Traditionally,
+										Italians would consume this type of coffee at breakfast.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr class="my-5">
 					<div class="row">
-						<h2>Test</h2>
-						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-							Rerum sapiente laudantium doloremque iusto. Qui non dolor tempore minima esse earum?
-							Consectetur est sint itaque nemo dolorem magnam sunt quia quasi.</p>
+						<div class="col-lg-7">
+							<div class="row mb-3">
+								<div class="col-md-1 col-2">
+									<i class=""></i>
+								</div>
+								<div class="col-md-11 col-10">
+									<h5 class="font-weight-bold mb-3">Espresso</h5>
+									<p class="">To make an espresso, shoot boiling water under high pressure
+										through finely ground up coffee beans and then pour into a tiny mug.
+										Sounds simple right? Well, it’s surprisingly difficult to master.
+										Espressos are the purest coffee experience you can get, and while
+										they’re not for everyone, it can be a truly singular drinking experience
+										when you find a good brew.</p>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-1 col-2">
+									<i class=""></i>
+								</div>
+								<div class="col-md-11 col-10">
+									<h5 class="font-weight-bold mb-3">Flat White</h5>
+									<p class="">The two most Kiwi coffees available are the long black
+										and the flat white – as both originated in New Zealand and Australia.
+										For a flat white, the steamed milk from the bottom of the jug
+										(which is usually not so frothy, but rather creamy) is poured over a shot of
+										espresso.
+										It is now popular among mums and dads at school fetes who are desperately trying
+										to stay awake.</p>
+								</div>
+							</div>
+							<div class="row mb-lg-0 mb-5">
+								<div class="col-md-1 col-2">
+									<i class=""></i>
+								</div>
+								<div class="col-md-11 col-10">
+									<h5 class="font-weight-bold mb-3">Macchiato</h5>
+									<p class="mb-0">A macchiato is a shot of espresso which is then
+										topped off with foamed milk dashed directly into the cup.
+										Although it may sound similar to a cappuccino, it’s usually stronger as
+										there’s no steamed milk added and it’s also smaller, usually served in an
+										expresso sized cup.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<img src="https://imgur.com/ENfnX7r.jpg" alt="Sample project image" class="img-fluid rounded z-depth-1">
+                        </div>
+						</div>
 					</div>
 				</div>
+			</div>
 	</section>
-	<footer class="container-fluid">
-		<div id="footer-details" class="row">
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">CopyRight 2019</h5>
+	</div>
+	<div id="about_us" class="container my-5 py-5">
+		<section>
+			<h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">About Us!</h6>
+			<h3 class="font-weight-bold text-center dark-grey-text pb-2">Our Services</h3>
+			<hr class="w-header my-4">
+			<p class="lead text-center text-muted pt-2 mb-5">Join thousands of satisfied customers using our template
+				globally.</p>
+			<div class="row">
+				<div class="col-md-6 col-xl-3 mb-4">
+					<div class="card text-center bg-success text-white">
+						<div class="card-body">
+							<p class="mt-4 pt-2"><i class="far fa-object-ungroup fa-4x"></i></p>
+							<h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">ONE</a></h5>
+							<p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, sequi
+                            ullam! Debitis vel inventore sunt. Voluptatum facilis, eius accusamus velit maiores rerum
+                            eligendi magnam natus quasi recusandae quam vero sed.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-3 mb-4">
+					<div class="card text-center bg-danger text-white">
+						<div class="card-body">
+							<p class="mt-4 pt-2"><i class="fas fa-mobile-alt fa-4x text-white"></i></p>
+							<h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">TWO</a>
+							</h5>
+							<p class="text-muted mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Repudiandae provident aut hic ratione amet molestiae, ex ab, tempore velit quam quaerat
+                            est asperiores aspernatur quia perferendis sint consequatur, adipisci repellendus.
+                            </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-3 mb-4">
+					<div class="card text-center bg-info text-white">
+						<div class="card-body">
+							<p class="mt-4 pt-2"><i class="fas fa-chart-line fa-4x"></i></p>
+							<h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Three</a></h5>
+							<p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est enim ex
+                            sunt molestiae vero laudantium illum amet dolorem. Voluptatem animi sit saepe, perferendis
+                            aperiam odit laudantium facilis at officiis aliquam.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-3">
+					<div class="card text-center bg-secondary text-white">
+						<div class="card-body">
+							<p class="mt-4 pt-2"><i class="fas fa-bullhorn fa-4x grey-text"></i></p>
+							<h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Four</a></h5>
+							<p class="text-muted mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+                            ducimus aliquid molestiae error illo magni temporibus, minus, iusto quo repellendus inventore
+                            reiciendis itaque sed dolorum harum, expedita alias aliquam nostrum.
+                            </p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Social</h5>
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
-							<span class="sr-only">LinkedIn</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-pinterest" aria-hidden="true"></i>
-							<span class="sr-only">Pinterest</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-							<span class="sr-only">Instagram</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-youtube" aria-hidden="true"></i>
-							<span class="sr-only">YouTube</span>
-						</a>
-					</li>
-				</ul>
+		</section>
+	</div>
+	<div id="reviews" class="container mt-5 pt-5">
+		<section class="team-section text-center dark-grey-text">
+			<h3 class="font-weight-bold mb-4">Reviews</h3>
+			<div class="row">
+				<div id="multi-item-example" class="carousel testimonial-carousel slide carousel-multi-item mb-5"
+					data-ride="carousel">
+					<div class="controls-top">
+						<a class="btn-floating light-blue darken-4" href="#multi-item-example"
+							data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+						<a class="btn-floating light-blue darken-4" href="#multi-item-example"
+							data-slide="next"><i class="fas fa-chevron-right"></i></a>
+					</div>
+					<ol class="carousel-indicators">
+						<li data-target="#multi-item-example" data-slide-to="0" class="active light-blue darken-4"></li>
+						<li data-target="#multi-item-example" data-slide-to="1" class="light-blue darken-4"></li>
+						<li data-target="#multi-item-example" data-slide-to="2" class="light-blue darken-4"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<div class="col-md-4">
+								<div class="testimonial">
+									<div class="avatar mx-auto">
+										<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(26).jpg" class="rounded-circle img-fluid">
+                                    </div>
+										<h4 class="font-weight-bold mt-4">Anna Deynah</h4>
+										<h6 class="blue-text font-weight-bold my-3">Web Designer</h6>
+										<p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>Lorem ipsum
+											dolor sit amet,
+											consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>
+										<div class="grey-text">
+											<i class="fas fa-star"> </i>
+											<i class="fas fa-star"> </i>
+											<i class="fas fa-star"> </i>
+											<i class="fas fa-star"> </i>
+											<i class="fas fa-star-half-alt"> </i>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 clearfix d-none d-md-block">
+									<div class="testimonial">
+										<div class="avatar mx-auto">
+											<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(27).jpg" class="rounded-circle img-fluid">
+                                        </div>
+											<h4 class="font-weight-bold mt-4">John Doe</h4>
+											<h6 class="blue-text font-weight-bold my-3">Web Developer</h6>
+											<p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>Ut enim
+												ad minima veniam,
+												quis
+												nostrum exercitationem ullam corporis laboriosam.</p>
+											<div class="grey-text">
+												<i class="fas fa-star"> </i>
+												<i class="fas fa-star"> </i>
+												<i class="fas fa-star"> </i>
+												<i class="fas fa-star"> </i>
+												<i class="fas fa-star"> </i>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 clearfix d-none d-md-block">
+										<div class="testimonial">
+											<div class="avatar mx-auto">
+												<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid">
+                                            </div>
+												<h4 class="font-weight-bold mt-4">Abbey Clark</h4>
+												<h6 class="blue-text font-weight-bold my-3">Photographer</h6>
+												<p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>Quis
+													autem vel eum iure
+													reprehenderit qui in ea voluptate velit esse quam nihil molestiae.
+												</p>
+												<div class="grey-text">
+													<i class="fas fa-star"> </i>
+													<i class="fas fa-star"> </i>
+													<i class="fas fa-star"> </i>
+													<i class="fas fa-star"> </i>
+													<i class="far fa-star"> </i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="col-md-4">
+											<div class="testimonial">
+												<div class="avatar mx-auto">
+													<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" class="rounded-circle img-fluid">
+                                                </div>
+													<h4 class="font-weight-bold mt-4">Blake Dabney</h4>
+													<h6 class="blue-text font-weight-bold my-3">Web Designer</h6>
+													<p class="font-weight-normal">
+														<i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam,
+														quis
+														nostrum exercitationem ullam corporis laboriosam.</p>
+													<div class="grey-text">
+														<i class="fas fa-star"> </i>
+														<i class="fas fa-star"> </i>
+														<i class="fas fa-star"> </i>
+														<i class="fas fa-star"> </i>
+														<i class="fas fa-star-half-alt"> </i>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 clearfix d-none d-md-block">
+												<div class="testimonial">
+													<div class="avatar mx-auto">
+														<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(6).jpg" class="rounded-circle img-fluid">
+                                                    </div>
+														<h4 class="font-weight-bold mt-4">Andrea Clay</h4>
+														<h6 class="blue-text font-weight-bold my-3">Front-end developer
+														</h6>
+														<p class="font-weight-normal">
+															<i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit
+															amet,
+															consectetur adipisicing elit. Quod eos id officiis hic
+															tenetur quae.</p>
+														<div class="grey-text">
+															<i class="fas fa-star"> </i>
+															<i class="fas fa-star"> </i>
+															<i class="fas fa-star"> </i>
+															<i class="fas fa-star"> </i>
+															<i class="fas fa-star"> </i>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 clearfix d-none d-md-block">
+													<div class="testimonial">
+														<div class="avatar mx-auto">
+															<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(7).jpg" class="rounded-circle img-fluid">
+                                                        </div>
+															<h4 class="font-weight-bold mt-4">Cami Gosse</h4>
+															<h6 class="blue-text font-weight-bold my-3">Phtographer</h6>
+															<p class="font-weight-normal">
+																<i class="fas fa-quote-left pr-2"></i>At vero eos et
+																accusamus et
+																iusto odio dignissimos ducimus qui blanditiis
+																praesentium.</p>
+															<div class="grey-text">
+																<i class="fas fa-star"> </i>
+																<i class="fas fa-star"> </i>
+																<i class="fas fa-star"> </i>
+																<i class="fas fa-star"> </i>
+																<i class="far fa-star"> </i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="carousel-item">
+													<div class="col-md-4">
+														<div class="testimonial">
+															<div class="avatar mx-auto">
+																<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle img-fluid">
+                                                            </div>
+																<h4 class="font-weight-bold mt-4">Bobby Haley</h4>
+																<h6 class="blue-text font-weight-bold my-3">Web
+																	Developer</h6>
+																<p class="font-weight-normal">
+																	<i class="fas fa-quote-left pr-2"></i>Lorem ipsum
+																	dolor sit amet,
+																	consectetur adipisicing elit. Quod eos id officiis
+																	hic tenetur quae.</p>
+																<div class="grey-text">
+																	<i class="fas fa-star"> </i>
+																	<i class="fas fa-star"> </i>
+																	<i class="fas fa-star"> </i>
+																	<i class="fas fa-star"> </i>
+																	<i class="fas fa-star"> </i>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-4 clearfix d-none d-md-block">
+															<div class="testimonial">
+																<div class="avatar mx-auto">
+																	<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
+                                                                </div>
+																	<h4 class="font-weight-bold mt-4">Elisa Janson</h4>
+																	<h6 class="blue-text font-weight-bold my-3">Marketer
+																	</h6>
+																	<p class="font-weight-normal">
+																		<i class="fas fa-quote-left pr-2"></i>At vero
+																		eos et accusamus et
+																		iusto odio dignissimos ducimus qui blanditiis
+																		praesentium.</p>
+																	<div class="grey-text">
+																		<i class="fas fa-star"> </i>
+																		<i class="fas fa-star"> </i>
+																		<i class="fas fa-star"> </i>
+																		<i class="fas fa-star"> </i>
+																		<i class="fas fa-star-half-alt"> </i>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-4 clearfix d-none d-md-block">
+																<div class="testimonial">
+																	<div class="avatar mx-auto">
+																		<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
+                                                                    </div>
+																		<h4 class="font-weight-bold mt-4">Rob Jacobs
+																		</h4>
+																		<h6 class="blue-text font-weight-bold my-3">
+																			Front-end developer</h6>
+																		<p class="font-weight-normal">
+																			<i class="fas fa-quote-left pr-2"></i>Ut
+																			enim ad minima veniam,
+																			quis
+																			nostrum exercitationem ullam corporis
+																			laboriosam.</p>
+																		<div class="grey-text">
+																			<i class="fas fa-star"> </i>
+																			<i class="fas fa-star"> </i>
+																			<i class="fas fa-star"> </i>
+																			<i class="fas fa-star"> </i>
+																			<i class="far fa-star"> </i>
+																		</div>
+																	</div>
+																</div>
+															</div>
+
+					</div>
+				</div>
 			</div>
+		</section>
+	</div>
+	<div id="contact_us" class="container-fluid my-5">
+		<section>
+			<div class="card my-5">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="map-container-google-1" class="map-container rounded" style="height: 400px">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9244.595024739257!2d-5.929567!3d54.601372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x943f4d0f604e8380!2sCafe%2031!5e0!3m2!1sen!2suk!4v1573333729217!5m2!1sen!2suk"
+								frameborder="0" style="border:0;" allowfullscreen="">
+							</iframe>
+						</div>
+					</div>
+					<div class="col-10 col-md-4 mx-auto align-self-center py-4">
+						<p class="text-uppercase small grey-text"><strong>North Street Coffee & Bostro</strong></p>
+						<h5 class="font-weight-normal mb-4">Belfast, NI</h5>
+						<p class="text-muted font-weight-light">123 North Street<br>Belfast AB1 2CD</p>
+							<p class="text-muted font-weight-light mb-0">Phone: +1 234 567
+								890<br>Email: emailme@email.com</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="page-footer font-small cyan darken-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 py-5">
+					<div class="mb-5 flex-center">
+						<a class="fb-ic">
+							<i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<a class="tw-ic">
+							<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<a class="gplus-ic">
+							<i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<a class="li-ic">
+							<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<a class="ins-ic">
+							<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<a class="pin-ic">
+							<i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright text-center py-3">© 2019 Copyright:
+			<a href="https://www.linkedin.com/in/aaron-dwyer-567938195/"> Aaron Dwyer</a>
 		</div>
 	</footer>
 </body>
