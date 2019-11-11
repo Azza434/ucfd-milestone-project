@@ -68,13 +68,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+- This project was made using Bootstrap
+- All credit for images used go to google images
+- Content for this project came from Can Star Blue
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for section Coffee Explained was copied from the [Can Star Blue](https://www.canstarblue.co.nz/food-drink/coffee-shop-chains/coffee-types-explained/)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from a google search for "1920x1080 Coffee wallpapers"
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my girlfriend after I drew a blank on ideas.
