@@ -23,8 +23,6 @@
     margin: 10px 10px 10px 10px;
 }
 
-/* Navbar */
-
 .navalert-container {
     position: fixed;
     top: 0;
@@ -99,7 +97,7 @@ footer.page-footer .footer-copyright {
 .w-header {
 	width: 3.2rem;
 }
-/* -------------------------------------------------Contact */
+
 .map-container {
 	overflow: hidden;
 	position: relative;
