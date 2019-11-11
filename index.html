@@ -7,14 +7,12 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<script src="https://kit.fontawesome.com/87d2d52f18.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>North Street Coffee & Bistro</title>
 </head>
 
@@ -22,30 +20,28 @@
 	<header>
 		<div class="container-fluid navalert-container">
 			<nav class="navbar navbar-dark navbar-expand-sm">
-				<a href="index.html" class="navbar-brand">North Street Coffee & Bistro</a>
-
+				<a href="index.html" class="navbar-brand text-danger fas fa-coffee"> North Street Coffee & Bistro</a>
 				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-
+                <span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav mr-auto">
-						<li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item mr-2"><a class="nav-link" href="#coffee">Coffee Explained</a></li>
-						<li class="nav-item mr-2"><a class="nav-link" href="#menu">Menu</a></li>
-						<li class="nav-item mr-2"><a class="nav-link" href="#contact_us">Contact</a></li>
-						<li class="nav-item mr-2"><a class="nav-link" href="#reviews">Reviews</a></li>
+					<ul class="navbar-nav ml-auto text-danger">
+						<li class="active nav-item mr-2"><a class="nav-link text-danger" href="index.html">Home</a></li>
+						<li class="nav-item mr-2"><a class="nav-link text-danger" href="#coffee">Coffee Explained</a>
+						</li>
+						<li class="nav-item mr-2"><a class="nav-link text-danger" href="#menu">Menu</a></li>
+						<li class="nav-item mr-2"><a class="nav-link text-danger" href="#contact_us">Contact</a></li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdownMenuLink"
+								role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Social Media Links
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="/" target="_blank">Facebook</a>
-								<a class="dropdown-item" href="/" target="_blank">Twitter</a>
-								<a class="dropdown-item" href="/" target="_blank">Google+</a>
-								<a class="dropdown-item" href="/" target="_blank">LinkedIn</a>
-								<a class="dropdown-item" href="/" target="_blank">Instagram</a>
-								<a class="dropdown-item" href="/" target="_blank">Pintrest</a>
+								<a class="fab fa-facebook dropdown-item" href="/" target="_blank"> Facebook</a>
+								<a class="fab fa-twitter dropdown-item" href="/" target="_blank"> Twitter</a>
+								<a class="fab fa-google-plus-g dropdown-item" href="/" target="_blank"> Google+</a>
+								<a class="fab fa-linkedin-in dropdown-item" href="/" target="_blank"> LinkedIn</a>
+								<a class="fab fa-instagram  dropdown-item" href="/" target="_blank"> Instagram</a>
+								<a class="fab fa-pinterest fa-lg dropdown-item" href="/" target="_blank"> Pintrest</a>
 							</div>
 						</li>
 					</ul>
@@ -53,40 +49,32 @@
 			</nav>
 		</div>
 	</header>
-	<section>
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<section> <!---CAROUSEL-->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 			</ol>
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="assets/images/coffee1.jpg">
-				</div>
-					<div class="item">
-						<img src="assets/images/coffee2.jpg">
-                    </div>
-						<div class="item">
-							<img src="assets/images/coffee3.jpg">
-                    </div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="assets/images/coffee1.jpg" class="d-block w-100" alt="...">
+                </div>
+					<div class="carousel-item">
+						<img src="assets/images/coffee2.jpg" class="d-block w-100" alt="...">
+                </div>
+						<div class="carousel-item">
+							<img src="assets/images/coffee3.jpg" class="d-block w-100" alt="...">
+                </div>
 						</div>
-						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
 					</div>
-				</div>
-			</div>
-		</div>
-		<div id="coffee" class="container mt-5">
-			<div class="magazine-section mx-md-5 dark-grey-text">
-				<h3 class="text-center font-weight-bold mb-4 pb-2">Different Types Of Coffee Explained</h3>
-				<p class="text-center w-responsive mx-auto mb-5">Regardless of why you’re drinking coffee,
+	</section>
+	<section id="coffee"> <!---Different Coffee-->
+		<div class="container mt-5">
+			<div class="mx-md-5">
+				<h3 class="text-center font-weight-bold mb-4">Different Types Of Coffee Explained</h3>
+				<hr class="my-5">
+				<p class="text-center mb-5">Regardless of why you’re drinking coffee,
 					what matters most is how it tastes, smells, and whether or not it makes you feel alert and happy in
 					the morning.
 					That being said, everyone has their favourite order – perhaps a latte, a piccolo, or maybe a long
@@ -100,7 +88,7 @@
 					staff deem the most delicious.</p>
 				<div class="row">
 					<div class="col-lg-5 mb-lg-0 mb-5">
-						<img src="https://imgur.com/slhGbF6.jpg" alt="Sample project image" class="img-fluid rounded z-depth-1">
+						<img src="https://imgur.com/slhGbF6.jpg" alt="Sample project image" class="rounded img-fluid">
                     </div>
 						<div class="col-lg-7">
 							<div class="row mb-3">
@@ -193,229 +181,195 @@
 							</div>
 						</div>
 						<div class="col-lg-5">
-							<img src="https://imgur.com/ENfnX7r.jpg" alt="Sample project image" class="img-fluid rounded z-depth-1">
+							<img src="https://imgur.com/ENfnX7r.jpg" alt="Sample project image" class="rounded img-fluid">
                         </div>
 						</div>
 					</div>
 				</div>
 			</div>
 	</section>
-	<section>
-		<div id="menu" class="container">
-			<div class="row">
-				<div class="col-lg-10 mx-auto col-12 text-center mb-3">
-					<h1 class="mt-0 text-scondary">Our Menu</h1>
-					<p class="lead">Begin with a selection from our award winning beverage menu</p>
-				</div>
-				<div class="col-12 mt-4">
-					<h3 class="text-center">Coffee</h3>
-					<hr class="accent my-5">
-				</div>
-				<div class="card-columns">
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£4</span>
-						<h6 class="text-truncate">Café Latte</h6>
-						<p class="small">A café latte, or “latte” for short, is an espresso based drink with steamed
-							milk and micro-foam added to the coffee.</p>
+	<section id="menu"> <!---Menu-->
+		<div class="container mt-5">
+			<div class="mx-md-5">
+				<hr class="my-5">
+				<h3 class="text-center font-weight-bold mb-4">Menu</h3>
+				<hr class="my-5">
+				<div class="row menu">
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£4.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Café Latte</h5>
+							<p class="card-text text-center">A café latte, or “latte” for short, is an
+								espresso based drink with steamed milk and micro-foam added to the coffee.</p>
+						</div>
 					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£4</span>
-						<h6 class="text-truncate">Cappuccino</h6>
-						<p class="small">A cappuccino is similar to a latte.
-							However the key difference between a latte and cappuccino is
-							that a cappuccino has more foam and chocolate placed on top of the drink.</p>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£4.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Espresso (Short Black)</h5>
+							<p class="card-text text-center">The espresso (aka “short black”) is the
+								foundation and the most important part to every espresso based drink.</p>
+						</div>
 					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£4</span>
-						<h6 class="text-truncate">Espresso (Short Black)</h6>
-						<p class="small">The espresso (aka “short black”) is the foundation and the most important part
-							to every espresso based drink.</p>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£4.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Short Macchiato</h5>
+							<p class="card-text text-center">A short macchiato is similar to an espresso but with
+								a dollop of steamed milk and foam to mellow the harsh taste of an espresso.</p>
+						</div>
 					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£4</span>
-						<h6 class="text-truncate">Flat White</h6>
-						<p class="small">A flat white is a coffee you’ll primarily find in Australia and New Zealand.
-						</p>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£4.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Cappuccino</h5>
+							<p class="card-text text-center">A cappuccino is similar to a latte. However the key
+								difference
+								between a latte and cappuccino is that a cappuccino has more foam and chocolate placed
+								on top of the drink.</p>
+						</div>
 					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£4</span>
-						<h6>Short Macchiato</h6>
-						<p class="small">A short macchiato is similar to an espresso but with a dollop of steamed milk
-							and foam to mellow the harsh taste of an espresso.</p>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£4.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Flat White</h5>
+							<p class="card-text text-center">A flat white is a coffee you’ll primarily find in Australia
+								and New Zealand.</p>
+						</div>
 					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£4</span>
-						<h6 class="text-truncate">Americano</h6>
-						<p class="small">A long black (aka “americano”) is hot water with an espresso shot extracted on
-							top of the hot water.</p>
-					</div>
-				</div>
-				<div class="col-12 mt-4">
-					<h3 class="text-center">Cakes</h3>
-					<hr class="accent my-5">
-				</div>
-				<div class="card-columns">
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£2</span>
-						<h6 class="text-truncate">Butter Cake</h6>
-					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£2</span>
-						<h6 class="text-truncate">Pound Cake</h6>
-					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£2</span>
-						<h6 class="text-truncate">Sponge Cake</h6>
-					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£2</span>
-						<h6 class="text-truncate">Genoise Cake</h6>
-					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£2</span>
-						<h6 class="text-truncate">Biscuit Cake</h6>
-					</div>
-					<div class="card card-body">
-						<span class="float-right font-weight-bold">£2</span>
-						<h6 class="text-truncate">Angel Food Cake</h6>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£4.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Americano</h5>
+							<p class="card-text text-center">A long black (aka “americano”) is hot water with an
+								espresso shot extracted on top of the hot water.</p>
+						</div>
 					</div>
 				</div>
-				<div class="col-12 mt-4">
-					<hr class="accent my-5">
-				</div>
-				<div class="col-6 mx-auto">
-					<div class="card card-body text-center">
-						<h5 class="text-uppercase">Tuesday Only!</h5>
-						<h6>Coffee & Cake</h6>
-						<p class="small">
-							Any Coffee and Cake of your choice for only £3
-						</p>
-						<span class="float-right font-weight-bold">£3</span>
+			</div>
+			<div class="mx-md-5">
+				<hr class="my-5">
+				<h3 class="text-center font-weight-bold mb-4">Cakes</h3>
+				<hr class="my-5">
+				<div class="row menu">
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£2.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Butter Cake</h5>
+							<p class="card-text text-center">Butter cake is baked with basic ingredients:
+                            butter, sugar, eggs, flour, and leavening agents such as baking powder or
+                            baking soda. It is considered as one of the quintessential cakes in American baking.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-12 mt-4">
-					<hr class="accent my-5">
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£2.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Pound Cake</h5>
+							<p class="card-text text-center">Pound cakes are generally baked in either a loaf
+                            pan or a Bundt mold, and served either dusted with powdered sugar, lightly glazed,
+                            or sometimes with a coat of icing.</p>
+						</div>
+					</div>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£2.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Sponge Cake</h5>
+							<p class="card-text text-center">Sponge cake is a light cake made with eggs, flour
+                            and sugar, sometimes leavened with baking powder. Sponge cakes, leavened with beaten eggs,
+                             originated during the Renaissance, possibly in Spain.</p>
+						</div>
+					</div>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£2.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Genoise Cake</h5>
+							<p class="card-text text-center">A génoise, also known as Genoese cake or Genovese cake,
+                            is an Italian sponge cake named after the city of Genoa and associated with Italian and French cuisine.
+                            Instead of using chemical leavening, air is suspended in the batter during mixing to provide volume.</p>
+						</div>
+					</div>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£4.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Biscuit Cake</h5>
+							<p class="card-text text-center">A cookie is a baked or cooked food that is typically small, flat and sweet.
+                            It usually contains flour, sugar and some type of oil or fat. It may include other ingredients such as raisins,
+                             oats, chocolate chips, nuts, etc.</p>
+						</div>
+					</div>
+					<div class="card menu-b text-white bg-dark mb-3" style="max-width: 18rem;">
+						<div class="card-header text-center">£4.00</div>
+						<div class="card-body border-secondary">
+							<h5 class="card-title text-center">Angel Food Cake</h5>
+							<p class="card-text text-center">Angel food cake, or angel cake, is a type of sponge cake made with egg whites,
+                            flour, and sugar. A whipping agent, such as cream of tartar, is commonly added. It differs from other cakes because
+                            it uses no butter. Its aerated texture comes from whipped egg white.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="team-section text-center dark-grey-text">
-		<div id="reviews" class="container mt-5 pt-5">
-			<h3 class="font-weight-bold mb-4 pb-2">Reviews</h3>
-			<p class="text-center w-responsive mx-auto mb-5">Want to know what people thing of us? Just read what they
-				have to say below!</p>
-			<div class="row text-center">
-				<div class="col-md-4 mb-md-0 mb-5">
-					<div class="testimonial">
-						<div class="avatar mx-auto">
-							<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+	<section id="contact_us"> <!---Contact Us-->
+		<div class="container">
+			<div>
+                <hr class="my-5">
+                <h1 class="text-center">Contact Us</h1>
+            </div>
+			<br />
+            <div class="card my-5">
+			    <div class="row contact-row">
+				    <div class="col-md-6">
+					    <div id="map-container-google-1" class="map-container rounded" style="height: 400px">
+                            <iframe
+							    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9244.595024739257!2d-5.929567!3d54.601372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x943f4d0f604e8380!2sCafe%2031!5e0!3m2!1sen!2suk!4v1573333729217!5m2!1sen!2suk"
+							    frameborder="0" style="border:0;" allowfullscreen="">
+						    </iframe>
                         </div>
-							<h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
-							<h6 class="font-weight-bold blue-text my-3">Coffee Expert</h6>
-							<p class="font-weight-normal dark-grey-text">
-								<i class="fas fa-quote-left pr-2"></i>Food, Quality, Price range, Decor, and Staff - All
-								excellent</p>
-							<div class="orange-text">
-								<i class="fas fa-star"> </i>
-								<i class="fas fa-star"> </i>
-								<i class="fas fa-star"> </i>
-								<i class="fas fa-star"> </i>
-								<i class="fas fa-star-half-alt"> </i>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 mb-md-0 mb-5">
-						<div class="testimonial">
-							<div class="avatar mx-auto">
-								<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
-                            </div>
-								<h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
-								<h6 class="font-weight-bold blue-text my-3">Cake Expert</h6>
-								<p class="font-weight-normal dark-grey-text">
-									<i class="fas fa-quote-left pr-2"></i>Great place for afternoon Tea and a cake</p>
-								<div class="orange-text">
-									<i class="fas fa-star"> </i>
-									<i class="fas fa-star"> </i>
-									<i class="fas fa-star"> </i>
-									<i class="fas fa-star"> </i>
-									<i class="fas fa-star"> </i>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="testimonial">
-								<div class="avatar mx-auto">
-									<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
-                                </div>
-									<h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
-									<h6 class="font-weight-bold blue-text my-3">Helen From Facebook</h6>
-									<p class="font-weight-normal dark-grey-text">
-										<i class="fas fa-quote-left pr-2"></i>I'm there every week! Poundcake is good
-										:-)</p>
-									<div class="orange-text">
-										<i class="fas fa-star"> </i>
-										<i class="fas fa-star"> </i>
-										<i class="fas fa-star"> </i>
-										<i class="fas fa-star"> </i>
-										<i class="far fa-star"> </i>
-									</div>
-								</div>
-							</div>
-						</div>
+				    </div>
+				    <br />
+				    <div class="col-md-6">
+					    <div class="col-10 col-md-8 mx-auto align-self-center py-4">
+						    <p class="text-uppercase small grey-text"><strong>North Street Coffee & Bostro</strong></p>
+						    <h5 class="font-weight-normal mb-4">Belfast, NI</h5>
+						    <p class="text-muted ">123 North Street<br>Belfast AB1 2CD</p>
+							    <p class="text-muted font-weight-light mb-0">Phone: +1 234 567
+								    890<br>Email: emailme@email.com</p>
+				    </div>
+			    </div>
+		    </div>
+        </div>
+        <hr class="my-5">
 	</section>
-	<section>
-		<div id="contact_us" class="container-fluid my-5">
-			<div class="card my-5">
-				<div class="row">
-					<div class="col-md-6">
-						<div id="map-container-google-1" class="map-container rounded" style="height: 400px">
-							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9244.595024739257!2d-5.929567!3d54.601372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x943f4d0f604e8380!2sCafe%2031!5e0!3m2!1sen!2suk!4v1573333729217!5m2!1sen!2suk"
-								frameborder="0" style="border:0;" allowfullscreen="">
-							</iframe>
-						</div>
-					</div>
-					<div class="col-10 col-md-4 mx-auto align-self-center py-4">
-						<p class="text-uppercase small grey-text"><strong>North Street Coffee & Bostro</strong></p>
-						<h5 class="font-weight-normal mb-4">Belfast, NI</h5>
-						<p class="text-muted font-weight-light">123 North Street<br>Belfast AB1 2CD</p>
-							<p class="text-muted font-weight-light mb-0">Phone: +1 234 567
-								890<br>Email: emailme@email.com</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer class="page-footer font-small cyan darken-3">
+	<footer class="page-footer py-4 bg-dark text-white-50">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 py-5">
-					<div class="mb-5 flex-center">
+				<div class="col-md-10">
+					<div class="b-inline text-center">
 						<a class="fb-ic">
-							<i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+							<i class="fab fa-facebook fa-lg fa-2x"> </i>
 						</a>
 						<a class="tw-ic">
-							<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+							<i class="fab fa-twitter fa-lg fa-2x"> </i>
 						</a>
 						<a class="gplus-ic">
-							<i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+							<i class="fab fa-google-plus-g fa-lg fa-2x"> </i>
 						</a>
 						<a class="li-ic">
-							<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+							<i class="fab fa-linkedin-in fa-lg fa-2x"> </i>
 						</a>
 						<a class="ins-ic">
-							<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+							<i class="fab fa-instagram fa-lg fa-2x"> </i>
 						</a>
 						<a class="pin-ic">
-							<i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-						</a>
+							<i class="fab fa-pinterest fa-lg fa-2x"> </i>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="footer-copyright text-center py-3">© 2019 Copyright:
-			<a href="https://www.linkedin.com/in/aaron-dwyer-567938195/"> Aaron Dwyer</a>
-		</div>
+			<hr class="my-3">
+			<div class="footer-copyright text-center py-3">© 2019 Copyright
+				<a href="https://www.linkedin.com/in/aaron-dwyer-567938195/"> Aaron Dwyer</a>
+			</div>
 	</footer>
 </body>
 
