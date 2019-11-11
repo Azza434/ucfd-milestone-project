@@ -99,7 +99,7 @@ footer.page-footer .footer-copyright {
 .w-header {
 	width: 3.2rem;
 }
-
+/* -------------------------------------------------Contact */
 .map-container {
 	overflow: hidden;
 	position: relative;
@@ -115,5 +115,32 @@ footer.page-footer .footer-copyright {
 }
 
 .text-muted {
-    color: #fafafa!important;
+    color: #212529!important;
+}
+
+.fa-star, .fa-star-half-alt {
+    color: orange;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(35,35,35,0.9);
+    border-radius: .25rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-columns {
+    column-count: 3;
 }
