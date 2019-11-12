@@ -10,13 +10,12 @@ body {
 /*----------------------------------Heading */
 
 .navalert-container {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
     padding-left: 0;
     padding-right: 0;
-    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .navbar {
@@ -38,7 +37,6 @@ body {
 .navbar .navbar-nav a {
     font-weight: bold;
     color: #675acd;
-    text-shadow: rgba(255, 255, 255, 0) 0.1em 0.1em 0.2em;
 }
 
 .carousel-indicators li {
@@ -101,5 +99,5 @@ hr {
 /* ----------------------------------------------Footer */
 
 a {
-    color: slateblue;
+    color: #675acd;
 }
