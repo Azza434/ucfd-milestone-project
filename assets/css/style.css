@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 body {
-    background-color: #cccccc;
+    background-color: #6c757d1f;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
@@ -16,6 +16,7 @@ body {
     z-index: 1;
     padding-left: 0;
     padding-right: 0;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .navbar {
@@ -36,6 +37,11 @@ body {
 
 .navbar .navbar-nav a {
     font-weight: bold;
+    color: #675acd;
+}
+
+.carousel-indicators li {
+    background-color: #dc3545;
 }
 
 /*-----------------------------------------------Carousel*/
@@ -52,11 +58,22 @@ body {
 /* ----------------------------------------------Menu */
 
 .menu {
-    padding-left: 76px;
+    width: auto;
 }
 
 .menu-b {
     margin: 5px 5px 5px 5px;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    border: 1px solid #dc3545;
+}
+
+hr {
+    border-top: 1px solid #dc3545;
 }
 
 /* ----------------------------------------------Map */
@@ -81,3 +98,7 @@ body {
     padding-right: 4%;
 }
 /* ----------------------------------------------Footer */
+
+a {
+    color: slateblue;
+}
