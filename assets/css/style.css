@@ -101,3 +101,9 @@ hr {
 a {
     color: #dc3545;
 }
+
+.spacer {
+    display:block;
+    width: 100%;
+    border: 1px solid #dc3545;
+}
