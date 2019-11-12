@@ -7,7 +7,7 @@ body {
     letter-spacing: 2px;
 }
 
-/*----------------------------------Heading */
+/* Heading */
 
 .navalert-container {
     position: sticky;
@@ -43,7 +43,7 @@ body {
     background-color: #dc3545;
 }
 
-/*-----------------------------------------------Carousel*/
+/*Carousel*/
 .carousel-item {
   height: 65vh;
   min-height: 350px;
@@ -54,7 +54,7 @@ body {
   background-size: cover;
 }
 
-/* ----------------------------------------------Menu */
+/*Menu */
 
 .menu {
     width: auto;
@@ -65,9 +65,9 @@ body {
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
     border: 1px solid #dc3545;
 }
 
@@ -75,7 +75,7 @@ hr {
     border-top: 1px solid #dc3545;
 }
 
-/* ----------------------------------------------Map */
+/*Map */
 .map-container {
 	overflow: hidden;
 	position: relative;
@@ -96,7 +96,7 @@ hr {
     padding-left: 4%;
     padding-right: 4%;
 }
-/* ----------------------------------------------Footer */
+/* Footer */
 
 a {
     color: #675acd;
