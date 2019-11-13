@@ -12,9 +12,6 @@ the website you simply click to where you want to go and get taken there.
 I added a social media dropdown menu to the header as social media is a baig thing in this day and age,The user has all the social media links at their fingertips without having to navigate to the bottom
 of the webpage
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
 ## Features
 
 When landing on North Street Coffee & Bistro's website you will first see a carousel with rotating pictures of beautiful cups of coffee
