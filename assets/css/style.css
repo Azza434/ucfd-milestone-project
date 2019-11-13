@@ -14,7 +14,7 @@ body {
 /* Heading */
 
 .navalert-container {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
@@ -40,7 +40,6 @@ body {
 
 .navbar .navbar-nav a {
     font-weight: 600;
-    color: #dc3545;
 }
 
 .carousel-indicators li {
@@ -48,15 +47,7 @@ body {
 }
 
 /*Carousel*/
-.carousel-item {
-  height: 65vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 
 /*Menu */
 
@@ -99,7 +90,7 @@ body {
 /* Footer */
 
 a {
-    color: #dc3545;
+   
 }
 
 .spacer {
