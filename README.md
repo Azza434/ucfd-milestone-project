@@ -1,7 +1,6 @@
 # North Street Coffee & Bistro
 
-North Street Coffee & Bistro is a growing coffee shop in the heart of Belfast City Center, They strive to give you the best coffee in Belfast or something I don't know what I should
-be writing in here to be quiet honset with you. I think I might come back later and finish the README.
+North Street Coffee & Bistro is a growing coffee shop in the heart of Belfast City Center, They strive to give you the best coffee in Belfast.
 
 ## UX
 
