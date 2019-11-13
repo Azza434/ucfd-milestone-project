@@ -14,8 +14,13 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+When landing on North Street Coffee & Bistro's website you will first see a carousel with rotating pictures of beautiful cups of coffee
 
+Next you will come across coffee explained section that gives you a little insight to the different types off coffee
+
+Then you will reach their menu that consists of the different coffees they sell and cakes
+
+And finally the contact us section that shows a map pointing you to their place of business and their contact details
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
