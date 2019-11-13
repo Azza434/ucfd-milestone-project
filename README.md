@@ -4,12 +4,16 @@ North Street Coffee & Bistro is a growing coffee shop in the heart of Belfast Ci
 
 ## UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is for North Street Coffee & Bistro, They want to achieve a simplistic view and an easy to navigate website.
+
+In this project I provided that by making one single page with everything needed at the click of a button,The header follows you as you browse through the website meaning that anytime you want to move through
+the website you simply click to where you want to go and get taken there.
+
+I added a social media dropdown menu to the header as social media is a baig thing in this day and age,The user has all the social media links at their fingertips without having to navigate to the bottom
+of the webpage
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
@@ -20,23 +24,14 @@ Next you will come across coffee explained section that gives you a little insig
 Then you will reach their menu that consists of the different coffees they sell and cakes
 
 And finally the contact us section that shows a map pointing you to their place of business and their contact details
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [JQuery]
+- [HTML5]
+- [CSS3]
+- [Bootstrap]
+- [FontAwesome]
 
 
 ## Testing
